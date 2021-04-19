@@ -1,0 +1,138 @@
+{
+  "name": "MARCUS USERBOT",
+  "description": "A USERBOT TO MANAGE YOUR TELEGRAM ACCOUNT ",
+  "logo": "https://telegra.ph/file/5a488103befb5511aa7bd.jpg", 
+  "keywords": [
+    "telegram",
+    "userbot",
+    "plugin",
+    "modular",
+    "productivity",
+    "marcus"
+  ],
+    "repository": "https://github.com/hackelite01/Marcususerbot.git",
+    "website": "https://github.com/hackelite01/Marcususerbot/tree/main",
+    "success_url": "https://github.com/hackelite01/Marcususerbot/blob/main/README.md",
+      "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable heroku.",
+      "value": "ANYTHING"
+    },
+    "TEMP_DOWNLOAD_DIRECTORY": {
+      "description": "Where downloaded files will go.",
+      "value": "./userbot/DOWNLOADS/",
+      "required": false
+    },
+    "ALIVE_NAME": {
+      "description": "Enter Username Here ",
+      "value": ""
+    },
+    "ALIVE_PIC": {
+      "description": "Enter Telegraph Link for Alive Pic.",
+      "value": "https://telegra.ph/file/5a488103befb5511aa7bd.jpg"
+    },
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    },
+    "PLUGIN_CHANNEL": {
+      "description": "Channel Where You Save Your Plugins",
+      "value": ""
+    },
+    "SUDO_USERS": {
+      "description": "Enter A User Id Which You Would Like to Use To Control Sudo. Don't Give Your Own ID Or ID Of Users You Don't Trust.",
+      "value": "",
+      "required": false
+    },
+    "PRIVATE_GROUP_ID": {
+      "description": "A Group ID Where You Want Logging Feature",
+      "value": ""
+    },
+    "PRIVATE_GROUP_BOT_ID": { 
+       "description": "Just Copy Paste PRIVATE_GROUP_ID FOR AFK PLUGIN", 
+       "value": ""
+     }, 
+     "PRIVATE_GROUP_BOT_API_ID": { 	
+       "description": "SORRY COPY THE ABOVE GROUP'S ID",
+       "value": ""
+     },
+    "STRING_SESSION": {
+      "description": "Get From Repl.run Or Run Locally or https://replit.com/@hackelite011/MarcusUserbot#main.py", 
+      "value": ""
+    },
+    "GITHUB_ACCESS_TOKEN": {
+      "description": "Your Github Access Token for GitHub Commit Plugin. Google 'Github access token' to find more About It.",
+      "value": "",
+      "required": false
+    },
+    "GIT_REPO_NAME": {
+      "description": "Your repo name Example: hackelite01/Marcususerbot, but GITHUB_ACCESS_TOKEN must be setup first.",
+      "value": "",
+      "required": false
+    },
+    "LYDIA_API_KEY": {
+      "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_API_KEY": {
+      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
+      "value": ""
+    },
+    "HEROKU_APP_NAME": {
+      "description": "The Value of App Name you filled in right on top.Required for updater to work.",
+      "value": ""
+    },
+    "TG_BOT_TOKEN_BF_HER": {
+      "description": "Needed for inline buttons maker. Make a bot at @BotFather and get the API token of your bot. GO Get it.",
+      "value": ""
+    },
+    "TG_BOT_NAME_OF_HER": {
+      "description": "You Telegram Bot's USERNAME Here. Needed For Help Module And Cbutton. REMEMBER TYPE USERNAME WITHOUT@",
+      "value": ""
+    },
+     "TG_BOT_USER_NAME_BF_HER": {
+       "description": "NEEDED FOR INLINE BUTTONS JUST COPY `TG_BOT_NAME_OF_HER` To Work Dont Include `@`",
+       "value": ""
+    },
+    "DOWNLOAD_PFP_URL_CLOCK": {
+      "description": "Needed for autopic module. A url that is a preview link of your Profile Pic",
+      "value": "",
+      "required": false
+    },
+    "TZ": {
+      "description": "Required for Correct Time on autopic",
+      "value": "Asia/Kolkata",
+      "required": false
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-chromedriver"
+    },
+    {
+      "url": "https://github.com/opendoor-labs/heroku-buildpack-p7zip"
+    }
+  ]
+}
