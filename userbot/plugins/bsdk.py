@@ -1,5 +1,5 @@
 # gali plugin By LEGENDBOT
-import to marcususerbot
+import to Marcususerbot
 """Emoji
 Available Commands:
 .bsdk"""
