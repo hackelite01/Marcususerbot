@@ -1,5 +1,5 @@
 ###Check if userbot alive.
-###© @hackelitebotlist
+###Â© @hackelitebotlist
 
 import asyncio
 from telethon import events
@@ -22,19 +22,18 @@ file3 = "https://telegra.ph/file/4e96d2e60cbab4876e671.mp4"
 
 pm_caption = "**This is Marcus Userbot**\n\n"
 
-pm_caption += "Hi THERE 👋 MASTER ! I am Alive. All functions are working properly.\n\n"
-pm_caption += "⚡️Status⚡️\n\n"
-pm_caption += "😎Telethon Version : (1.16.04)\n"
-pm_caption += "🥳Python : (3.8.3)\n"
-pm_caption += "😮Version : (1.0)\n"
-pm_caption += "🥱A.I Verision : Beta **1.0.01** [Ask Support Group Master](t.me/hackelitebotlist)\n"
-pm_caption += "😱Sudo : **{sudo}**\n"
-pm_caption += "🤫Database status : All Fine👌\n"
-pm_caption += f"🥰My Pro Master : {DEFAULTUSER}\n\n"
-pm_caption += "🤖[✄1�7 Deploy Me Now ✅](https://github.com/hackelite01/Marcususerbot.git)\n\n"
-pm_caption += "© [Marcus Userbot](https://github.com/hackelite01/Marcususerbot/blob/main/LICENSE)\n\n"
+pm_caption += "Hi THERE ðŸ‘‹ MASTER ! I am Alive. All functions are working properly.\n\n"
+pm_caption += "âš¡ï¸Statusâš¡ï¸\n\n"
+pm_caption += "ðŸ˜ŽTelethon Version : (1.16.04)\n"
+pm_caption += "ðŸ¥³Python : (3.8.3)\n"
+pm_caption += "ðŸ˜®Version : (1.0)\n"
+pm_caption += "ðŸ¥±A.I Verision : Beta **1.0.01** [Ask Support Group Master](t.me/hackelitebotlist)\n"
+pm_caption += "ðŸ˜±Sudo : **{sudo}**\n"
+pm_caption += "ðŸ¤«Database status : All FineðŸ‘Œ\n"
+pm_caption += f"ðŸ¥°My Pro Master : {DEFAULTUSER}\n\n"
+pm_caption += "Â© [Marcus Userbot](https://github.com/hackelite01/Marcususerbot/blob/main/LICENSE)\n\n"
 pm_caption += "    [MARCUS](https://t.me/hackelitebotlist) For Latest Updates\n\n"
-pm_caption += "SYSTEM HEALTH : STABLE 😎👍 "
+pm_caption += "SYSTEM HEALTH : STABLE ðŸ˜ŽðŸ‘ "
 
 @borg.on(admin_cmd(pattern=r"alive"))
 async def amireallyalive(yes):
