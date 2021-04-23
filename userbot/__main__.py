@@ -82,7 +82,7 @@ for name in files:
 
         shortname = path1.stem
 
-        load_module(shortname.replace(".py", ""))
+        load_module(shortname.replace(".py", "")) 
 
 import userbot._core
 
