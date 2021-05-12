@@ -23,15 +23,24 @@ file3 = "https://telegra.ph/file/4e96d2e60cbab4876e671.mp4"
 pm_caption = "**This is Marcus Userbot**\n\n"
 
 pm_caption += "Hi THERE {DEFAULTUSER} MASTER ! I am Alive. All functions are working properly.\n\n"
-pm_caption += "”3Ê4”3Ê5”3È6”3Ê5”3Ê6”3Ê4\n"
-pm_caption += "5×55Õ50³45Õ55×50³15Ö30¯1 5Ø05Õ50°3. : (1.16.04)\n"
-pm_caption += "5×20±85×50³15Ö30¯1 : (3.8.3)\n"
-pm_caption += "5Ú55Û50µ45ä45Ý60¹6 :  **1.0.01** [Ask Support Group Master](t.me/hackelitebotlist)\n"
-pm_caption += "5Ù65Û55Ý55Û55Û95Û50¹65Ü1 status : All Fine\n"
+pm_caption += "ðš‚ðšƒð™°ðšƒðš„ðš‚\n"
+
+pm_caption += "á´›á´‡ÊŸá´‡á´›Êœá´É´ á´ á´‡Ê€. : (1.16.04)\n"
+
+pm_caption += "á´˜Êá´›Êœá´É´ : (3.8.3)\n"
+
+pm_caption += "á´¹áµƒÊ³á¶œáµ˜Ë¢ :  **1.0.01** [Ask Support Group Master](t.me/hackelitebotlist)\n"
+
+pm_caption += "á´°áµƒáµ—áµƒáµ‡áµƒË¢áµ‰ status : All Fine\n"
+
 pm_caption += f"My Pro Master : {DEFAULTUSER}\n\n"
+
 pm_caption += "Deploy Me Now (https://github.com/hackelite01/Marcususerbot.git)\n\n"
-pm_caption +="5×65×25×50®15Ö15Õ5  :** `{uptime}'\n"
+
+pm_caption +="á´œá´˜á´›Éªá´á´‡  :** `{uptime}'\n"
+
 pm_caption += "[MARCUS](https://t.me/hackelitebotlist) For Latest Updates\n\n"
+
 pm_caption += "SYSTEM HEALTH : STABLE "
 
 @borg.on(admin_cmd(pattern=r"alive"))
