@@ -1,10 +1,10 @@
-from userbot import bot
+from MARCUS import bot
 from telethon import events
 from var import Var
 from pathlib import Path
-from userbot.uniborgConfig import Config
-from userbot import LOAD_PLUG
-from userbot import CMD_LIST
+from MARCUS.uniborgConfig import Config
+from MARCUS import LOAD_PLUG
+from MARCUS import CMD_LIST
 import re
 import logging
 import inspect
