@@ -1,19 +1,19 @@
 
-from userbot import bot
+from MARCUS import bot
 from telethon import events
-from userbot.utils import command, remove_plugin, load_module
+from MARCUS.utils import command, remove_plugin, load_module
 from var import Var
 import importlib
 from pathlib import Path
-from userbot import LOAD_PLUG
+from MARCUS import LOAD_PLUG
 import sys
-from userbot import ALIVE_NAME
+from MARCUS import ALIVE_NAME
 import asyncio
 import traceback
 import os
-import userbot.utils
+import MARCUS.utils
 from datetime import datetime
-from userbot.utils import edit_or_reply as eor
+from MARCUS.utils import edit_or_reply as eor
 
 DELETE_TIMEOUT = 8
 thumb_image_path = "./resources/marcus.jpg"
@@ -28,7 +28,7 @@ async def install(event):
             downloaded_file_name = (
                 await event.client.download_media(  # pylint:disable=E0602
                     await event.get_reply_message(),
-                    "userbot/plugins/",  # pylint:disable=E0602
+                    "MARCUS/plugins/",  # pylint:disable=E0602
                 )
             )
             if "(" not in downloaded_file_name:
@@ -61,7 +61,7 @@ async def send(event):
     message_id = event.message.id
     thumb = thumb_image_path
     input_str = event.pattern_match["shortname"]
-    the_plugin_file = "./userbot/plugins/{}.py".format(input_str)
+    the_plugin_file = "./MARCUS/plugins/{}.py".format(input_str)
     if os.path.exists(the_plugin_file):
         start = datetime.now()
         pro = await event.client.send_file(
