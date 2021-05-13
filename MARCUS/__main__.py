@@ -1,4 +1,4 @@
-from userbot import bot
+from MARCUS import bot
 
 from sys import argv
 
@@ -12,9 +12,9 @@ from telethon import TelegramClient
 
 from var import Var
 
-from userbot.utils import load_module
+from MARCUS.utils import load_module
 
-from userbot import LOAD_PLUG, BOTLOG_CHATID, LOGS
+from MARCUS import LOAD_PLUG, BOTLOG_CHATID, LOGS
 
 from pathlib import Path
 
@@ -70,7 +70,7 @@ else:
 
 import glob
 
-path = 'userbot/plugins/*.py'
+path = 'MARCUS/plugins/*.py'
 
 files = glob.glob(path)
 
@@ -84,7 +84,7 @@ for name in files:
 
         load_module(shortname.replace(".py", "")) 
 
-import userbot._core
+import MARCUS._core
 
 print("Yay your userbot is officially working.")
 
