@@ -40,8 +40,8 @@
       "value": ""
     },
     "PLUGIN_CHANNEL": {
-      "description": "Channel Where You Save Your Plugins",
-      "value": ""
+      "description": "Don't change this",
+      "value": "-1001240739538"
     },
     "SUDO_USERS": {
       "description": "Enter A User Id Which You Would Like to Use To Control Sudo. Don't Give Your Own ID Or ID Of Users You Don't Trust.",
