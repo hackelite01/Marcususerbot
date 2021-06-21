@@ -1,7 +1,7 @@
 
 from MARCUS import bot
 from telethon import events
-from MARCUS.utils import command, remove_plugin, load_module
+from ..utils import command, remove_plugin, load_module
 from var import Var
 import importlib
 from pathlib import Path
@@ -13,7 +13,7 @@ import traceback
 import os
 import MARCUS.utils
 from datetime import datetime
-from MARCUS.utils import edit_or_reply as eor
+from ..utils import edit_or_reply as eor
 
 DELETE_TIMEOUT = 8
 thumb_image_path = "./resources/marcus.jpg"

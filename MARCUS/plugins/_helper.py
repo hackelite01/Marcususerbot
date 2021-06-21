@@ -2,7 +2,7 @@
 from telethon import functions
 
 from MARCUS import ALIVE_NAME, CMD_LIST
-from MARCUS.utils import admin_cmd
+from ..utils import admin_cmd
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Marcus"
 
