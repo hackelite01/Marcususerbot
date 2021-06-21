@@ -21,7 +21,7 @@ import requests
 from telethon.tl import functions
 
 from userbot import CMD_HELP
-from userbot.utils import admin_cmd
+from ..utils import admin_cmd
 
 COLLECTION_STRING = [
     "cute-anime-wallpapers-hd",
