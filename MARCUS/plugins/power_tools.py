@@ -18,7 +18,7 @@ from telethon import events
 import asyncio
 import os
 import sys
-from userbot.utils import admin_cmd, edit_or_reply
+from ..utils import admin_cmd, edit_or_reply
 # RESTART CMD
 @borg.on(admin_cmd("restart"))
 async def _(event):

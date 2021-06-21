@@ -32,7 +32,7 @@ from telethon.tl.types import (
     InputStickerSetShortName,
     MessageMediaPhoto
 )
-from userbot.utils import admin_cmd
+from ..utils import admin_cmd
 from userbot import ALIVE_NAME
 from userbot.exclusive import STICKER_PACK_NAME, ANIMATED_STICKER_PNAME
 

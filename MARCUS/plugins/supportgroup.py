@@ -7,7 +7,7 @@ credits
 """
 import asyncio
 # (C) @hackelitebotlist------------------------------- Written by @mayank1rajput -------------------------------------For @hackelitebotlist--------------------------
-from userbot.utils import admin_cmd
+from ..utils import admin_cmd
 # (C) @hackelitebotlist------------------------------- Written by @mayank1rajput -------------------------------------For @hackelitebotlist--------------------------
 @borg.on(admin_cmd("support"))
 async def _(event):

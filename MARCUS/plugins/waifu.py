@@ -11,7 +11,7 @@ import random
 import re
 
 from userbot import CMD_HELP, bot
-from userbot.utils import admin_cmd, edit_or_reply, sudo_cmd
+from ..utils import admin_cmd, edit_or_reply, sudo_cmd
 
 EMOJI_PATTERN = re.compile(
     "["

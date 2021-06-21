@@ -15,7 +15,7 @@ from time import sleep
 import asyncio
 import os
 import random
-from userbot.utils import admin_cmd
+from ..utils import admin_cmd
 #@borg.on(events.NewMessage(pattern=r"\.remkarb ", outgoing=True))
 @borg.on(admin_cmd(pattern="remkarb"))
 async def carbon_api(e):

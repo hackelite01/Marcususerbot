@@ -5,7 +5,7 @@
 # Thanks To Dark Cobra
 # ------------------_---------_------_--------------
 from userbot import *
-from userbot.utils import admin_cmd
+from ..utils import admin_cmd
 from telethon.tl.types import Channel, Chat, User
 from telethon.tl import functions, types
 from telethon.tl.functions.messages import  CheckChatInviteRequest, GetFullChatRequest

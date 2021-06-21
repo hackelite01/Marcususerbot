@@ -24,7 +24,7 @@ import userbot.plugins.sql_helper.pmpermit_sql as pmpermit_sql
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon import events, errors, functions, types
 from userbot.exclusive import ALIVE_NAME
-from userbot.utils import admin_cmd
+from ..utils import admin_cmd
 PM_WARNS = {}
 PREV_REPLY_MESSAGE = {}
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"

@@ -15,7 +15,7 @@ import os
 from pySmartDL import SmartDL
 
 from userbot import CMD_HELP
-from userbot.utils import admin_cmd
+from ..utils import admin_cmd
 # ----------WRITTEN BY FRIDAY[MIDHUN KM]-------------------------------------------EDITED BY @mayank1rajput------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 MARCUSUSER_HTTP = "https://api.proxyscrape.com/?request=getproxies&proxytype=http&timeout=10000&country=all&ssl=all&anonymity=all"

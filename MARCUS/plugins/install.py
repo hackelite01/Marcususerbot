@@ -2,7 +2,7 @@
 # We Are Not Responsible If Userbot Got Crashed 
 # © @hackelitebotlist
 
-from userbot.utils import admin_cmd, load_module, remove_plugin
+from ..utils import admin_cmd, load_module, remove_plugin
 import asyncio
 import os
 from datetime import datetime

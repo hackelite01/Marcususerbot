@@ -21,7 +21,7 @@ from git.exc import GitCommandError, InvalidGitRepositoryError, NoSuchPathError
 
 
 
-from userbot.utils import admin_cmd
+from ..utils import admin_cmd
 
 from userbot import CMD_HELP 
 

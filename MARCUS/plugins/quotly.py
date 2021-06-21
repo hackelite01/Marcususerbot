@@ -10,7 +10,7 @@ from telethon.tl.functions.account import UpdateNotifySettingsRequest
 
 from userbot import bot, CMD_HELP
 
-from userbot.utils import admin_cmd
+from ..utils import admin_cmd
 
 #@register(outgoing=True, pattern="^.q(?: |$)(.*)")
 
