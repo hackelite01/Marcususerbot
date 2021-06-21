@@ -12,7 +12,7 @@ from telethon import TelegramClient
 
 from var import Var
 
-from ..utils import load_module
+from MARCUS.utils import load_module
 
 from MARCUS import LOAD_PLUG, BOTLOG_CHATID, LOGS
 
