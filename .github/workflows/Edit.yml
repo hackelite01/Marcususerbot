@@ -18,7 +18,7 @@ jobs:
 
         with:
 
-          find: "from MARCUS.utils"
+          find: "from userbot.utils"
 
           replace: "from ..utils"
 
@@ -28,7 +28,7 @@ jobs:
 
         with:
 
-          commit_message: 'Replaced new name'
+          commit_message: 'Plugs Update'
 
           commit_options: '--no-verify'
 
