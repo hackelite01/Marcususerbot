@@ -3,7 +3,7 @@ Syntax: .add <User(s)>"""
 
 from telethon import functions
 
-from userbot.utils import admin_cmd
+from ..utils import admin_cmd
 
 
 @borg.on(admin_cmd(pattern="add?(.*)"))
