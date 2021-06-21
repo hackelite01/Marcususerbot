@@ -1,7 +1,7 @@
 
 from MARCUS import bot
 from telethon import events
-from ..utils import command, remove_plugin, load_module
+from MARCUS.utils import command, remove_plugin, load_module
 from var import Var
 import importlib
 from pathlib import Path
